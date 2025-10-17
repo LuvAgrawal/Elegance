@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SwiperCarousel from "./SwiperCarousel";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <>
+      <SwiperCarousel />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
